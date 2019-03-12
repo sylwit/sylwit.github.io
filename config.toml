@@ -1,0 +1,24 @@
+baseURL = "https://sylwit.com/"
+languageCode = "en-us"
+title = "Sylvain Witmeyer, senior cloud architect"
+theme = "sylwit"
+
+[params]
+[params.font]
+    name = "Open Sans"
+    sizes = [400,600]
+
+[params.intro]
+    title= "Manage. Deploy."
+
+[[params.social]]
+url = "github"
+name = "github"
+
+[[params.social]]
+url = "#"
+name = "linkedin"
+
+[[params.social]]
+url = "#"
+name = "medium"

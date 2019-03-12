@@ -1,0 +1,39 @@
+<section class="intro columns">
+
+  <div class="column is-primary is-fullheight is-one-third">
+
+
+    <!-- <div class="container">
+        <h1 class="title">
+          Hi, I'm Sylvain, a senior cloud architect consultant
+        </h1>
+        <h2 class="subtitle">
+          Hero subtitle
+        </h2-->
+    <footer>
+      <ul>
+        {{ range .Site.Params.social }}
+        <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
+    </footer>
+  </div>
+
+
+
+
+  <div class="column is-fullheight is-two-thirds">
+      <div class="desc">
+        <h1>Hi, I'm Sylvain,<br/>
+          a senior devops &amp;<br/>
+          cloud architect consultant.</h1>
+      
+        <p><a href="work.html" class="button">Hire me now <i class="icon-arrow-right3"></i></a></p>
+      </div>
+  </div>
+
+  </div>
+
+
+
+</section>

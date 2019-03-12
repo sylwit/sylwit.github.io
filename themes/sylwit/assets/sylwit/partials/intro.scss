@@ -1,0 +1,46 @@
+.intro{
+
+    .is-fullheight{
+        min-height: 100vh
+    }
+    .is-one-third{
+        background-color: $primary;
+
+        
+        footer{
+            position: absolute;
+            bottom: 30px;
+
+            ul>li {
+                display: inline;
+                text-transform: uppercase;
+                margin-left: 2rem;
+                font-size: $size-7;
+                letter-spacing: 3px;
+                font-weight: $weight-normal;
+            }
+        }
+    }
+    .is-two-thirds{
+        background-image: url(../images/sylwit.jpg);
+        background-size: cover;
+
+        .desc {
+            margin-top: 15%;
+            width: 80%;
+            // color: $black-bis;
+            margin-left: -20rem;
+
+
+            h1 {
+                font-size: $size-1;
+                font-weight: $weight-bold;
+            }
+
+            p>a {
+                margin-top: 3rem;
+                border: 1px solid $black;
+            }
+        }        
+    }
+}
