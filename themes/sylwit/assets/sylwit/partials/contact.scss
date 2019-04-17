@@ -1,0 +1,19 @@
+.contact {
+    background-color: $footer-background-color;
+    position: relative;
+}
+
+.contact::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 420px;
+    background-color: $footer-background-color;
+    
+    // background: #f6f9fc;
+    transform: skew(0, -12deg);
+    transform-origin: top left;
+    z-index: 0;
+}

@@ -1,6 +1,6 @@
-baseURL = "https://sylwit.com/"
+baseURL = "http://myeshop.info/perso_website/"
 languageCode = "en-us"
-title = "Sylvain Witmeyer, senior cloud architect"
+title = "Sylvain Witmeyer, AWS cloud architect consultant"
 theme = "sylwit"
 
 [params]
@@ -12,13 +12,90 @@ theme = "sylwit"
     title= "Manage. Deploy."
 
 [[params.social]]
-url = "github"
-name = "github"
-
-[[params.social]]
-url = "#"
+url = "https://www.linkedin.com/in/sylvainwitmeyer/"
 name = "linkedin"
 
 [[params.social]]
-url = "#"
+url = "https://medium.com/@sylwit"
 name = "medium"
+
+[[params.social]]
+url = "https://github.com/sylwit"
+name = "github"
+
+[[params.social]]
+url = "https://twitter.com/switmeyer"
+name = "twitter"
+
+[[params.step]]
+icon = "fa-sitemap"
+title = "Analyze & Research"
+description = """
+To provide the best solutions, I need a deep understanding of your actual reality. 
+An analyze of your problems, code and infrastructure, combining with the right questions, 
+will bring up the best solutions. 
+"""
+
+[[params.step]]
+icon = "fa-file-code"
+title = "Architecture & Design"
+description = """
+It's time to convert my ideas into a executable plan. How long? How much? Why? 
+I provide you different approaches to open up the discussion.
+ """
+
+[[params.step]]
+icon = "fa-cloud-upload-alt"
+title = "Development & Deploy"
+description = """
+Because if you want to match the reality I think you must eat your own dog's food. For me it means 
+beeing hands on in the code, and setup CI/CD pipelines.
+"""
+
+[[params.step]]
+icon = "fa-cogs"
+title = "Maintenance & Support"
+description = """
+I stay available for optimizing and monitoring your application, improving an existing project, 
+reducing costs of infrastructure, and still being active for reinforcing your team.
+"""
+
+[[params.reco]]
+author = "Patrice Lelaisant"
+company = "Dragonbleu / Venumfight"
+country = "Paris - France"
+description = """
+Nous travaillons avec Sylvain depuis 4 ans pour l'hébergement et l'infogérance de nos sites internet.
+Que ce soit pour des services d'investigation liés à des problèmes techniques pointus ou pour des 
+demandes de développement, Sylvain a toujours fait preuve d'expertise, de réactivité
+et de disponibilité pour mener à bien notre contrat d'infogérance.
+Un partenaire de confiance avec lequel vous travaillez main dans la main
+"""
+
+[[params.reco]]
+author = "Benoît Hamelin"
+company = "ElementAI"
+country = "Montreal - Canada"
+description = """
+Sylvain is a brilliant software developer, efficient against numerous modern platforms. 
+Beyond his technical abilities, Sylvain is an foremost thinker and problem solver. 
+He speaks his mind clearly, and is a great whiteboard companion. He will see the weakness 
+to a solution proposal, and help his team progress towards a solid solution. 
+I would work with him again with unmitigated enthusiasm.
+"""
+
+[[params.reco]]
+author = ""
+company = "Ingeniarts"
+country = "Quebec - Canada"
+description = """
+
+"""
+
+[[params.reco]]
+author = "Jean-François Blouin"
+company = "Scootertuning"
+country = "Quebec - Canada"
+description = """
+
+"""

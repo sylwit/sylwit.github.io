@@ -1,0 +1,32 @@
+<section class="hero-body">
+  <div class="columns has-text-centered is-centered">
+    <div class="column is-8">
+      <h1 class="title is-size-2-desktop is-size-4-mobile is-uppercase has-text-weight-bold">Recommendations</h1>
+
+      {{ range $index, $element := .Site.Params.reco }}
+
+
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-128x128">
+            <img src="https://bulma.io/images/placeholders/128x128.png">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>{{ .author }} - {{ .company }}</strong>
+              <br> <small>{{ .country }}</small>
+              <br>
+              {{ .description }}
+            </p>
+          </div>
+
+        </div>
+
+      </article>
+      {{ end }}
+
+    </div>
+  </div>
+</section>

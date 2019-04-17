@@ -3,17 +3,26 @@
 {{- partial "head.html" . -}}
 
 <body>
-    {{- partial "header.html" . -}}
-    <div id="content">
+    <!-- {{- partial "header.html" . -}} -->
+    <main>
+
         {{- block "main" . }}
 
-        {{ if .Site.Params.intro }}
         {{ partial "intro.html" . }}
-        {{ end }}
+
+        {{ partial "work.html" . }}
+
+        {{ partial "skills.html" . }}
+
+        {{ partial "usecases.html" . }}
+
+        {{ partial "recommendations.html" . }}
+
+        {{ partial "contact.html" . }}
 
         {{- end }}
 
-    </div>
+    </main>
     {{- partial "footer.html" . -}}
 </body>
 

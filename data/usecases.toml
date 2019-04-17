@@ -1,0 +1,39 @@
+[[case]]
+icon = "fab fa-aws"
+title = "AWS Certified solution architect"
+# description = "Certified solution architect"
+
+[[case]]
+icon = "fas fa-cloud-upload-alt"
+title = "Cloud migrations"
+
+
+[[case]]
+icon = "fas fa-bezier-curve"
+title = "AI implementation"
+
+[[case]]
+icon = "fab fa-connectdevelop"
+title = "Microservices architecture"
+
+[[case]]
+icon = "fab fa-docker"
+title = "Docker, Kubernetes management"
+
+[[case]]
+icon = "far fa-clock"
+title = "Prototype to MVP to production"
+
+
+[[case]]
+icon = "fab fa-gitlab"
+title = "CI/CD pipeline"
+
+
+[[case]]
+icon = "far fa-list-alt"
+title = "Infrastructure as a code"
+
+[[case]]
+icon = "fas fa-chart-line"
+title = "Optimization (performance, costs)"

@@ -1,0 +1,46 @@
+<section class="hero-body">
+  <div class="columns has-text-centered is-centered">
+    <div class="column is-10">
+      <h1 class="title is-size-1-desktop is-size-3-mobile is-uppercase has-text-weight-bold">Skills and qualifications
+      </h1>
+      <h2 class="subtitle is-size-5-mobile">
+        I have over 15 years professional experience in software development and IT management.
+      </h2>
+
+      <div class="columns is-multiline ">
+
+
+
+        {{ range $.Site.Data.skills.skill }}
+        
+        <div class="column is-half">
+
+          <div class="skill">
+            <!-- <figure class="image is-64x64">
+              <img
+                src="https://d33wubrfki0l68.cloudfront.net/44f6d5391122ed673760fae601bb7ec8990fb84e/48c4a/assets/icons/api.svg"
+                alt="API">
+            </figure>
+         -->
+            
+
+            <h1><i class="far fa-check-square"></i> {{ .title }}</h1>
+            <h2>{{ .subtitle }}</h2>
+        
+        
+          </div>
+        </div>
+        
+        
+        
+        {{ end }}
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+

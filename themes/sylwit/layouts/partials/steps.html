@@ -1,0 +1,34 @@
+{{ range $index, $element := .Site.Params.step }}
+
+<div class="step column">
+
+    <span class="icon step-icon">
+        <i class="fas fa-2x {{ .icon }}"></i>
+    </span>
+
+    <i class="fas fa-sort-down step-show is-hidden-tablet"></i>
+    <i class="fas fa-sort-up step-show is-hidden"></i>
+
+    <span class="is-uppercase has-text-weight-bold position">Step {{ add $index 1 }}:</span>
+
+    <p class="title is-size-5 has-text-weight-bold">{{ .title }}</p>
+
+    <div class="tooltip is-hidden">
+        <p class="is-size-5-desktop is-size-6-tablet">
+            {{ .description }}
+        </p>
+    </div>
+</div>
+
+{{ end }}
+
+<script>
+    const steps = document.getElementsByClassName('step');
+    if (window.innerWidth < 768) {
+        Array.from(steps, c => c.addEventListener('click', function () {
+            this.querySelectorAll('.fa-sort-down')[0].classList.toggle('is-hidden');
+            this.querySelectorAll('.fa-sort-up')[0].classList.toggle('is-hidden');
+            this.querySelectorAll('.tooltip')[0].classList.toggle('is-hidden');
+        }))
+    }
+</script>

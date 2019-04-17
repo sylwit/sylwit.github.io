@@ -1,0 +1,39 @@
+<section class="hero-body">
+  <div class="columns has-text-centered is-centered">
+    <div class="column is-10">
+      <h1 class="title is-size-1-desktop is-size-3-mobile is-uppercase has-text-weight-bold">Use cases</h1>
+
+      <h2 class="subtitle is-size-5-mobile">
+        Strong analytical and problem solving skills in full cycle software design and development
+      </h2>
+
+      <div class="columns is-multiline ">
+
+
+        {{ range $.Site.Data.usecases.case }}
+
+        <div class="column is-one-third">
+          <div class="usecase">
+            <i class="{{ .icon }} fa-3x"></i>
+
+            <h5>{{ .title }}</h5>
+
+
+          </div>
+        </div>
+
+
+
+        {{ end }}
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+</section>

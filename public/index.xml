@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sylvain Witmeyer, senior cloud architect</title>
-    <link>https://sylwit.com/</link>
-    <description>Recent content on Sylvain Witmeyer, senior cloud architect</description>
+    <title>Sylvain Witmeyer, AWS cloud architect consultant</title>
+    <link>http://myeshop.info/perso_website/</link>
+    <description>Recent content on Sylvain Witmeyer, AWS cloud architect consultant</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://sylwit.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://myeshop.info/perso_website/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
