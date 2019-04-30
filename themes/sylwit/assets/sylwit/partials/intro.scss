@@ -9,6 +9,21 @@
     line-height: 1.3em;
   }
 
+  .socials {
+    margin-top: 3em;
+
+    .icon {
+      margin-left: 0;
+    }
+  }
+
+  .hire {
+    background: #f8a700;
+    color: $white;
+    font-weight: 500;
+    border: 2px solid white;
+  }
+
   #angles {
     width: 100%;
     height: 100%;
@@ -18,10 +33,8 @@
     position: absolute;
     box-shadow: inset 0 -10px 80px -10px rgba(0, 0, 0, 0.1);
     background: url("../images/awscloud.jpg") no-repeat center top;
-    // background: linear-gradient(150deg, #9DC73A 15%, #64C65D 50%, #54AA4E 94%);
   }
 }
-
 
 .Mockups {
   z-index: 1;
@@ -30,9 +43,6 @@
   pointer-events: none;
   left: 50%;
   width: 600px;
-  // margin-left: -10px;
-  // transform: rotate(-9deg);
-  // transform-origin: 100% 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -53,53 +63,7 @@
     position: relative;
     width: 120%;
     left: 10%;
-    // top: 0;
-    // transform-origin: top;
     margin-top: -75%;
     margin-bottom: 30px;
   }
 }
-
-// .intro {
-//   .is-fullheight {
-//     min-height: 100vh;
-//   }
-//   .is-two-thirds {
-//     background: url(../images/sylwit.png);
-//     background-size: cover;
-//     background-position: center;
-
-//     .desc {
-//       margin: 15% 0 0 55%;
-//       // width: 100%;
-//       position: absolute;
-
-//       h1 {
-//         font-size: $size-2;
-//         font-weight: $weight-bold;
-//       }
-
-//       p > a {
-//         margin-top: 3rem;
-//         border: 1px solid $black;
-//       }
-//     }
-//   }
-//   .is-one-third {
-//     background-color: $primary;
-
-//     footer {
-//       position: absolute;
-//       bottom: 30px;
-
-//       ul > li {
-//         display: inline;
-//         text-transform: uppercase;
-//         margin-left: 2rem;
-//         font-size: $size-7;
-//         letter-spacing: 3px;
-//         font-weight: $weight-normal;
-//       }
-//     }
-//   }
-// }

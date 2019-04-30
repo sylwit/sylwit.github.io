@@ -1,27 +1,17 @@
 [[skill]]
 icon = ""
 title = "AWS addict"
-subtitle = "EC2, S3, SQS, SNS, RDS, DynamoDB, Elastic Beanstalk, ELB, ALB, Autoscaling, Athena, Cloudwatch, IAM, EKS, API Gateway, Lambda"
+subtitle = "EC2, S3, SQS, SNS, RDS, Route53, DynamoDB, Elastic Beanstalk, ELB, ALB, Autoscaling, Athena, Cloudwatch, IAM, EKS, API Gateway, Lambda"
 
 [[skill]]
 icon = ""
-title = "Strong knowledge and skills on Unix/LinuxOS and Open Source projects"
+title = "Strong knowledge and skills on Linux and Open Source projects"
 subtitle = "CentOS, Debian, Ubuntu, Fedora, CloudLinux, Alpine"
 
 [[skill]]
 icon = ""
 title = "Fullstack software developer with strong backend focus"
 subtitle = "REST, GRPC, swagger"
-
-[[skill]]
-icon = ""
-title = "Ability to work under pressure and respect deadlines."
-subtitle = ""
-
-[[skill]]
-icon = ""
-title = "Good analytical and trouble shooting / problem solving skills"
-subtitle = ""
 
 [[skill]]
 icon = ""
@@ -47,3 +37,13 @@ subtitle = "Docker, Kubernetes, Kops, Terraform, Helm"
 icon = ""
 title = "CI/CD"
 subtitle = "Gitlab, CircleCI, DroneCI, Jenkins"
+
+[[skill]]
+icon = ""
+title = "Ability to work under pressure and respect deadlines."
+subtitle = ""
+
+[[skill]]
+icon = ""
+title = "Excellent analytical and problem solving skills"
+subtitle = ""

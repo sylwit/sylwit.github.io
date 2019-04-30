@@ -13,9 +13,13 @@
             </h2>
             <p>
               <br>
-              <a href="#register" class="button polly-Button">Hire me now</a>
+              <a href="#contact" class="button polly-Button hire">Hire me now</a>
             </p>
 
+            <div class="socials">
+              {{ partial "socials.html" . }}
+
+            </div>
           </div>
 
         </div>
@@ -26,28 +30,10 @@
 </div>
 
 <div class="Mockups">
-  <img src="images/sylwit.png" />
+  <picture>
+    <source width="100%" height="100%"  srcset="images/sylwit.webp" type="image/webp">
+    <source width="100%" height="100%"  srcset="images/sylwit.png" type="image/png">
+    <img width="100%" height="100%" src="images/sylwit.png" />
+  </picture>
+
 </div>
-
-
-
-<!-- 
-
-<section class="intro columns is-mobile">
-
-  <div class="column is-fullheight is-one-third">
-    <footer>
-      <ul>
-        {{ range .Site.Params.social }}
-        <li><a href="{{ .url }}">{{ .name }}</a></li>
-        {{ end }}
-      </ul>
-    </footer>
-
-  </div>
-
-  </div>
-
-
-
-</section> -->

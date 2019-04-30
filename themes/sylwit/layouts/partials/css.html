@@ -4,8 +4,12 @@
 {{- $cssOpts      := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
 {{- $fontFace     := replace .Site.Params.font.name " " "+" }}
 {{- $fontSizes    := delimit .Site.Params.font.sizes "," }}
-{{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }}
-<link href="{{ $fontUrl }}" rel="stylesheet">
+{{/*  {{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }} */}}
+{{/*  <link href="{{ $fontUrl }}" rel="stylesheet"> */}}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}
 <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}">
@@ -13,4 +17,3 @@
 {{- $css := resources.Get $sass | toCSS $cssOpts | minify | fingerprint }}
 <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end }}
-<!-- <link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | absURL }}"> -->

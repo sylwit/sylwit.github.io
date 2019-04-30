@@ -1,6 +1,6 @@
 
 generate:
-	hugo
+	hugo --minify
 
 deploy: generate
-	rsync -rvzp --delete "public/" "myeshop:/home/sylvain/public_html/perso_website"
+	rsync -rvzp --delete "public/" "myeshop:/home/sylvain/domains/sylwit.com/public_html"

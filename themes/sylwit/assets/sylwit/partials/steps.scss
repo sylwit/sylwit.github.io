@@ -21,18 +21,11 @@
           position: absolute;
           top: -120px;
           left: 0;
-          // width: 100%;
           padding: 20px 80px;
-          // text-align: center;
-          // height: 100px;
           background-color: #546273;
           border-radius: 10px;
           color: #fff;
-          // -webkit-transition: 0.25s;
-          // transition: 0.25s;
           visibility: visible;
-          // opacity: 0;
-          // z-index: 25;
         }
 
         &:after {
@@ -49,10 +42,7 @@
       }
 
       .position {
-        //   display: block;
         font-size: 0.85em;
-        //   transition: 0.4s;
-        //   margin-bottom: 5px;
       }
     }
   }

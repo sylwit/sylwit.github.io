@@ -1,45 +1,89 @@
-<div class="contact section">
+<div id="contact" class="contact section">
     <div class="container">
 
         <div class="columns is-centered ">
             <div class="column is-4">
-                <p>Want to discuss your project? Let's set up a call.</p>
-                <p>No contract, no obligation and get 1 hour FREE.</p>
+                <p class="is-size-3">Want to discuss your project?<br/> Let's set up a call.</p>
+                <p class="is-size-5">No contract, no obligation and get<br /> <strong>1 hour FREE.</strong></p>
             </div>
             <div class="column is-4">
 
 
-                <form
-                    action="https://madebykade.us15.list-manage.com/subscribe/post?u=3c3e68a463cd5f23b2f8b59f5&amp;id=a51230eff6"
-                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                    target="_blank" novalidate>
+                <form action="#" method="post" id="contact_form" name="mc-embedded-subscribe-form" class="validate"
+                    target="_blank">
+
+                    <input type="text" name="_honey" id="contact_honey" style="display:none">
+
                     <div class="field">
                         <div class="control">
-                            <input class="input" placeholder="First Name *" type="text" value="" name="FNAME"
-                                id="mce-FNAME">
+                            <input class="input" placeholder="Name *" type="text" value="" name="name" id="contact_name"
+                                required>
                         </div>
                     </div>
                     <div class="field">
                         <div class="control">
-                            <input class="input" placeholder="Last Name *" name="LNAME" class="" id="mce-LNAME">
+                            <input class="input required email" placeholder="Email *" type="email" value="" name="email"
+                                class="required email" id="contact_email" required>
                         </div>
                     </div>
+
                     <div class="field">
                         <div class="control">
-                            <input class="input required email" placeholder="Email *" type="email" value="" name="EMAIL"
-                                class="required email" id="mce-EMAIL">
+                            <textarea class="textarea" name="message" id="contact_message" placeholder=""
+                                required></textarea>
                         </div>
                     </div>
+
+
                     <div class="field">
                         <div class="control has-text-right">
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
                                     name="b_3c3e68a463cd5f23b2f8b59f5_a51230eff6" tabindex="-1" value=""></div>
-                            <button class="polly-Button button" type="submit">Request an invite</button>
+                            <button class="polly-Button button submit" type="submit">Send</button>
                         </div>
                     </div>
 
                 </form>
+
+                <div class="is-hidden has-text-centered" id="contact_response">
+                    <p>Thank you.</p>
+
+                    <p>Let's keep in touch on</p>
+                    <p class="">{{ partial "socials.html" . }}</p>
+
+                </div>
+
             </div>
         </div>
     </div>
 </div>
+
+<script>
+
+    document.getElementById('contact_form').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        let formData = new FormData();
+        formData.append('name', document.getElementById('contact_name').value);
+        formData.append('email', document.getElementById('contact_email').value);
+        formData.append('message', document.getElementById('contact_message').value);
+        formData.append('_honey', document.getElementById('contact_honey').value);
+        formData.append('_captcha', false);
+        formData.append('_subject', "Contact on sylwit.com");
+
+        fetch("https://formsubmit.co/154efc01c2160c5b3400cf4e2c4c71df",
+            {
+                body: formData,
+                method: "post",
+                mode: "cors"
+            }).then(function (response) {
+                return response.blob();
+            }).catch(function (e) {
+                document.getElementById('contact_form').classList.add('is-hidden')
+                document.getElementById('contact_response').classList.remove('is-hidden')
+
+            });
+
+    })
+
+</script>

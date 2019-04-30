@@ -1,12 +1,15 @@
-baseURL = "http://myeshop.info/perso_website/"
+baseURL = "https://sylwit.com"
 languageCode = "en-us"
 title = "Sylvain Witmeyer, AWS cloud architect consultant"
 theme = "sylwit"
 
+googleAnalytics = "UA-138909862-1"
+
+
 [params]
 [params.font]
     name = "Open Sans"
-    sizes = [400,600]
+    sizes = [400]
 
 [params.intro]
     title= "Manage. Deploy."
@@ -61,21 +64,10 @@ reducing costs of infrastructure, and still being active for reinforcing your te
 """
 
 [[params.reco]]
-author = "Patrice Lelaisant"
-company = "Dragonbleu / Venumfight"
-country = "Paris - France"
-description = """
-Nous travaillons avec Sylvain depuis 4 ans pour l'hébergement et l'infogérance de nos sites internet.
-Que ce soit pour des services d'investigation liés à des problèmes techniques pointus ou pour des 
-demandes de développement, Sylvain a toujours fait preuve d'expertise, de réactivité
-et de disponibilité pour mener à bien notre contrat d'infogérance.
-Un partenaire de confiance avec lequel vous travaillez main dans la main
-"""
-
-[[params.reco]]
 author = "Benoît Hamelin"
 company = "ElementAI"
 country = "Montreal - Canada"
+avatar = "elementai"
 description = """
 Sylvain is a brilliant software developer, efficient against numerous modern platforms. 
 Beyond his technical abilities, Sylvain is an foremost thinker and problem solver. 
@@ -85,17 +77,31 @@ I would work with him again with unmitigated enthusiasm.
 """
 
 [[params.reco]]
-author = ""
-company = "Ingeniarts"
-country = "Quebec - Canada"
+author = "Patrice Lelaisant"
+company = "Dragonbleu / Venumfight"
+country = "Paris - France"
+avatar = "venum"
 description = """
-
+Nous travaillons avec Sylvain depuis 4 ans pour l'hébergement et l'infogérance de nos sites internet.
+Que ce soit pour des services d'investigation liés à des problèmes techniques pointus ou pour des 
+demandes de développement, Sylvain a toujours fait preuve d'expertise, de réactivité
+et de disponibilité pour mener à bien notre contrat d'infogérance.
+Un partenaire de confiance avec lequel vous travaillez main dans la main
 """
 
 [[params.reco]]
-author = "Jean-François Blouin"
-company = "Scootertuning"
+author = "Rami Jarjour"
+company = "Ingeniarts"
 country = "Quebec - Canada"
+avatar = "ingeniarts"
 description = """
 
 """
+
+# [[params.reco]]
+# author = "Jean-François Blouin"
+# company = "Scootertuning"
+# country = "Quebec - Canada"
+# description = """
+
+# """
