@@ -1,3 +1,5 @@
+serve:
+	hugo serve
 
 generate:
 	hugo --minify
