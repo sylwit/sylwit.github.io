@@ -1,25 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ .Site.LanguageCode }}">
 {{- partial "head.html" . -}}
 
 <body>
     <main>
 
-        {{- block "main" . }}
-
-        {{ partial "intro.html" . }}
-
-        {{ partial "work.html" . }}
-
-        {{ partial "skills.html" . }}
-
-        {{ partial "usecases.html" . }}
-
-        {{ partial "recommendations.html" . }}
-
-        {{ partial "contact.html" . }}
-
-        {{- end }}
+        {{- block "main" . }}{{- end }}
 
     </main>
     {{- partial "footer.html" . -}}
