@@ -36,7 +36,7 @@ subtitle = "Docker, Kubernetes, Kops, Terraform, Helm"
 [[skill]]
 icon = ""
 title = "CI/CD"
-subtitle = "Gitlab, CircleCI, DroneCI, Jenkins"
+subtitle = "Github Actions, Gitlab, CircleCI, Jenkins"
 
 [[skill]]
 icon = ""

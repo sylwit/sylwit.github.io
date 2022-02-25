@@ -34,8 +34,8 @@ name = "twitter"
 icon = "fa-sitemap"
 title = "Analyze & Research"
 description = """
-To provide the best solutions, I need a deep understanding of your actual reality. 
-An analyze of your problems, code and infrastructure, combining with the right questions, 
+To provide the best solutions, I need a deep understanding of your current reality.
+An analysis of your problems, code and infrastructure, combining with the right questions,
 will bring up the best solutions. 
 """
 
@@ -43,24 +43,37 @@ will bring up the best solutions.
 icon = "fa-file-code"
 title = "Architecture & Design"
 description = """
-It's time to convert my ideas into a executable plan. How long? How much? Why? 
-I provide you different approaches to open up the discussion.
+It's time to convert my ideas into an actionable plan. How long? How much? Why?
+I provide you with different approaches to open up the discussion.
  """
 
 [[params.step]]
 icon = "fa-cloud-upload-alt"
-title = "Development & Deploy"
+title = "Develop & Deploy"
 description = """
-Because if you want to match the reality I think you must eat your own dog's food. For me it means 
-beeing hands on in the code, and setup CI/CD pipelines.
+Because if you want to match the reality I think you must eat your own dog food. For me it means
+being hands on in the code, and setting-up CI/CD pipelines.
 """
 
 [[params.step]]
 icon = "fa-cogs"
 title = "Maintenance & Support"
 description = """
-I stay available for optimizing and monitoring your application, improving an existing project, 
-reducing costs of infrastructure, and still being active for reinforcing your team.
+I remain available for optimizing and monitoring your application, improving an existing project,
+reducing costs of infrastructure, and still being present to help empowering your team.
+"""
+
+[[params.reco]]
+author = "Jean-Sébastien Coulombe"
+company = "National Bank of Canada"
+country = "Montreal - Canada"
+avatar = "bnc"
+description = """
+Sylvain a une très grande connaissance technologique de l’environnement AWS et des bonnes pratiques du métier.
+Il a permis à l’équipe cybercrimes de mettre en place des patterns et de développer une expertise
+sur nos nouvelles technologies, incluant le serverless, les déploiements d’API avec Kubernetes,
+la sécurité globale de nos solutions, etc. Sa vision, sa facilité à transmettre ses connaissances
+et à rendre les gens autonomes nous ont grandement aidés pour faire évoluer l’ensemble de notre équipe.
 """
 
 [[params.reco]]
@@ -89,14 +102,7 @@ et de disponibilité pour mener à bien notre contrat d'infogérance.
 Un partenaire de confiance avec lequel vous travaillez main dans la main
 """
 
-[[params.reco]]
-author = "Rami Jarjour"
-company = "Ingeniarts"
-country = "Quebec - Canada"
-avatar = "ingeniarts"
-description = """
 
-"""
 
 # [[params.reco]]
 # author = "Jean-François Blouin"
