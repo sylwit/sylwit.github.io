@@ -26,9 +26,6 @@ name = "medium"
 url = "https://github.com/sylwit"
 name = "github"
 
-[[params.social]]
-url = "https://twitter.com/switmeyer"
-name = "twitter"
 
 [[params.step]]
 icon = "fa-sitemap"
