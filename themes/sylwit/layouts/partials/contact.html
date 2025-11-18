@@ -68,7 +68,7 @@
         formData.append('email', document.getElementById('contact_email').value);
         formData.append('message', document.getElementById('contact_message').value);
         formData.append('_honey', document.getElementById('contact_honey').value);
-        formData.append('_captcha', false);
+        formData.append('_captcha', true);
         formData.append('_subject', "Contact on sylwit.com");
 
         fetch("https://formsubmit.co/154efc01c2160c5b3400cf4e2c4c71df",
